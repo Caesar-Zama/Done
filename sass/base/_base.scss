@@ -1,0 +1,37 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: Rob;
+}
+
+h1 {
+  margin-bottom: 0;
+  font-family: RobLight;
+  font-size: 3.75rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.09rem;
+  color: $primary;
+}
+
+p {
+  margin-top: 11px;
+  font-weight: 100;
+  letter-spacing: -0.02rem;
+  color: $primary;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+input {
+  outline: none;
+}
