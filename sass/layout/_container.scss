@@ -1,6 +1,15 @@
 .container {
+  position: relative;
+  padding-left: 5%;
+  padding-right: 5%;
   height: 100vh;
   text-align: center;
   overflow: hidden;
   background: $background;
+}
+
+.wrapper {
+  position: absolute;
+  bottom: 0;
+  width: 90%;
 }

@@ -32,6 +32,18 @@ ul {
   list-style: none;
 }
 
+
+// .input-field {display: none;}
+
 input {
-  outline: none;
+  border-bottom: 1px solid $accent !important;
+}
+
+// Custom input focus color
+input[type=text]:not(.browser-default) {
+  // Focused input style
+  &:focus:not([readonly]) {
+    border-bottom: 1px solid $accent;
+    box-shadow: 0 1px 0 0 $accent;
+  }
 }

@@ -4,6 +4,11 @@
 @font-face {
   font-family: Rob;
   src: url("../asset/fonts/RobotoMono-Regular.ttf"); }
+.align-bottom {
+  position: absolute;
+  bottom: -17px;
+  width: 100%; }
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -339,13 +344,25 @@ ul {
   list-style: none; }
 
 input {
-  outline: none; }
+  border-bottom: 1px solid #AA8121 !important; }
+
+input[type=text]:not(.browser-default):focus:not([readonly]) {
+  border-bottom: 1px solid #AA8121;
+  box-shadow: 0 1px 0 0 #AA8121; }
 
 .container {
+  position: relative;
+  padding-left: 5%;
+  padding-right: 5%;
   height: 100vh;
   text-align: center;
   overflow: hidden;
   background: #EBBB04; }
+
+.wrapper {
+  position: absolute;
+  bottom: 0;
+  width: 90%; }
 
 header {
   margin-top: 78px; }

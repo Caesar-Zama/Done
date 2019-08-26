@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Done | Todo App</title>
+  <link rel="stylesheet" href="css/lib/materialize/sass/materialize.css">
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
@@ -14,17 +15,22 @@
       <p>Aug 12th 2019</p>
     </header>
 
-    <div class="input">
-      <input type="text" name="" id="">
+    <div class="input-field">
+      <input placeholder="Enter Todo" type="text">
     </div>
 
-    <div class="todo-list">
-      <ul class="todos">
-        <li class="todo">Item 1</li>
-        <li class="todo">Item 2</li>
-        <li class="todo">Item 3</li>
-      </ul>
-    </div>
+    <div class="wrapper">
+      <div class="card medium align-bottom">
+        <div class="card-content">
+          <ul class="todos">
+            <li>Web Development</li>
+            <li>Go to work</li>
+            <li>Personal Finance Edu</li>
+            <li>Skillshare</li>
+          </ul>
+        </div> <!-- card-content -->
+      </div> <!-- card  -->
+    </div> <!-- wrapper -->
   </div> <!-- container -->
 </body>
 </html>
