@@ -26,24 +26,20 @@ p {
   color: $primary;
 }
 
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-
 // .input-field {display: none;}
 
-input {
-  border-bottom: 1px solid $accent !important;
-}
-
-// Custom input focus color
+// Override Materialize default
 input[type=text]:not(.browser-default) {
+  font-size: 1.125rem;
+  border-bottom: 1px solid $accent;
+
   // Focused input style
   &:focus:not([readonly]) {
     border-bottom: 1px solid $accent;
     box-shadow: 0 1px 0 0 $accent;
   }
 }
+
+
+
+

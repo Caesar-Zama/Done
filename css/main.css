@@ -9,6 +9,9 @@
   bottom: -17px;
   width: 100%; }
 
+.voodoo {
+  background-color: #492D4E; }
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -338,24 +341,18 @@ p {
   letter-spacing: -0.02rem;
   color: #492D4E; }
 
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none; }
-
-input {
-  border-bottom: 1px solid #AA8121 !important; }
-
-input[type=text]:not(.browser-default):focus:not([readonly]) {
-  border-bottom: 1px solid #AA8121;
-  box-shadow: 0 1px 0 0 #AA8121; }
+input[type=text]:not(.browser-default) {
+  font-size: 1.125rem;
+  border-bottom: 1px solid #AA8121; }
+  input[type=text]:not(.browser-default):focus:not([readonly]) {
+    border-bottom: 1px solid #AA8121;
+    box-shadow: 0 1px 0 0 #AA8121; }
 
 .container {
   position: relative;
   padding-left: 5%;
   padding-right: 5%;
   height: 100vh;
-  text-align: center;
   overflow: hidden;
   background: #EBBB04; }
 
@@ -365,6 +362,9 @@ input[type=text]:not(.browser-default):focus:not([readonly]) {
   width: 90%; }
 
 header {
-  margin-top: 78px; }
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
 
 /*# sourceMappingURL=main.css.map */
