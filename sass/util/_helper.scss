@@ -4,4 +4,14 @@
     width: 100%;
 }
 
-.voodoo {background-color: $primary;}
+.align-vertical {
+    display: flex;
+    align-items: center;
+}
+
+
+.custom-material-icons {
+    color: $secondary;
+    padding-right: 2%;
+}
+.galliano {background-color: $secondary;}

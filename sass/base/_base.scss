@@ -5,9 +5,7 @@ html {
   box-sizing: inherit;
 }
 
-body {
-  font-family: Rob;
-}
+body {font-family: Rob;}
 
 h1 {
   margin-bottom: 0;
@@ -26,9 +24,16 @@ p {
   color: $primary;
 }
 
+ul {font-family: RobLight;}
+
+li {margin: 10px auto;}
+
 // .input-field {display: none;}
 
-// Override Materialize default
+// Overrides Materialize default placeholder style
+::placeholder {color: lighten($accent, 45%);}
+
+// Overrides Materialize default border color
 input[type=text]:not(.browser-default) {
   font-size: 1.125rem;
   border-bottom: 1px solid $accent;
@@ -39,7 +44,3 @@ input[type=text]:not(.browser-default) {
     box-shadow: 0 1px 0 0 $accent;
   }
 }
-
-
-
-

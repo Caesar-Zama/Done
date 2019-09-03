@@ -9,8 +9,16 @@
   bottom: -17px;
   width: 100%; }
 
-.voodoo {
-  background-color: #492D4E; }
+.align-vertical {
+  display: flex;
+  align-items: center; }
+
+.custom-material-icons {
+  color: #D4A40C;
+  padding-right: 2%; }
+
+.galliano {
+  background-color: #D4A40C; }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
@@ -340,6 +348,15 @@ p {
   font-weight: 100;
   letter-spacing: -0.02rem;
   color: #492D4E; }
+
+ul {
+  font-family: RobLight; }
+
+li {
+  margin: 10px auto; }
+
+::placeholder {
+  color: #f2e3be; }
 
 input[type=text]:not(.browser-default) {
   font-size: 1.125rem;
