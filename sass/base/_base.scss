@@ -5,7 +5,10 @@ html {
   box-sizing: inherit;
 }
 
-body {font-family: Rob;}
+body {
+  font-family: Rob;
+  overflow: hidden;
+}
 
 h1 {
   margin-bottom: 0;
