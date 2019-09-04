@@ -14,4 +14,15 @@
     color: $secondary;
     padding-right: 2%;
 }
+
+.absolute-action-btn {
+    position: absolute;
+    right: 4px;
+    bottom: 23px;
+    padding-top: 15px;
+    margin-bottom: 0;
+    z-index: 997;
+}
+
+
 .galliano {background-color: $secondary;}
