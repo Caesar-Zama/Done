@@ -5,7 +5,8 @@
 
 .align-bottom {
     position: relative;
-    top: 2.3vh;
+    top: 3vh;
+    // bottom: 0;
 }
 
 .align-vertical {
@@ -19,7 +20,10 @@
     padding-right: 2%;
 }
 
-.card-medium {height: get-vh(400px);}
+.card-medium {
+    width: 90vw;
+    min-height: get-vh(400px);
+}
 
 // .relative-action-btn {
 //     position: relative;
