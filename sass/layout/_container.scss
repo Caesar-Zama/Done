@@ -3,12 +3,10 @@
   padding-left: 5%;
   padding-right: 5%;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   overflow: hidden;
   background: $background;
 }
 
-.wrapper {
-  position: absolute;
-  bottom: 0;
-  width: 90%;
-}

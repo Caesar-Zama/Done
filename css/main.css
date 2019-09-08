@@ -5,9 +5,8 @@
   font-family: Rob;
   src: url("../asset/fonts/RobotoMono-Regular.ttf"); }
 .align-bottom {
-  position: absolute;
-  bottom: -17px;
-  width: 100%; }
+  position: relative;
+  top: 2.3vh; }
 
 .align-vertical {
   display: flex;
@@ -17,14 +16,7 @@
   color: #D4A40C;
   padding-right: 2%; }
 
-.card-container {
-  width: 90vw;
-  position: absolute;
-  bottom: 0;
-  padding-top: 15px;
-  margin-bottom: 0; }
-
-.card-size-adapt {
+.card-medium {
   height: 52.0833333333vh; }
 
 .galliano {
@@ -346,7 +338,7 @@ body {
   overflow: hidden; }
 
 h1 {
-  margin-bottom: 0;
+  margin: 0 auto;
   font-family: RobLight;
   font-size: 3.75rem;
   font-weight: 300;
@@ -381,15 +373,14 @@ input[type=text]:not(.browser-default) {
   padding-left: 5%;
   padding-right: 5%;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   overflow: hidden;
   background: #EBBB04; }
 
-.wrapper {
-  position: absolute;
-  bottom: 0;
-  width: 90%; }
-
 header {
+  margin-top: 40px;
   display: flex;
   flex-direction: column;
   align-items: center; }
