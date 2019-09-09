@@ -358,7 +358,8 @@ ul {
 li {
   margin: 10px auto; }
 
-.input-field {
+div.input-field {
+  display: none;
   top: 40px; }
 
 ::placeholder {
