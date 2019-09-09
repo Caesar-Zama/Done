@@ -358,6 +358,9 @@ ul {
 li {
   margin: 10px auto; }
 
+.input-field {
+  top: 40px; }
+
 ::placeholder {
   color: #f2e3be; }
 
@@ -377,14 +380,10 @@ input[type=text]:not(.browser-default) {
   flex-direction: column;
   justify-content: space-between;
   overflow: hidden;
-  background: #EBBB04;
-  border: 1px solid #fff; }
-
-.container > * {
-  border: 1px solid #030303; }
+  background: #EBBB04; }
 
 header {
-  margin: 40px auto 25px auto;
+  margin-top: 40px;
   display: flex;
   flex-direction: column;
   align-items: center; }

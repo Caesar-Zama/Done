@@ -35,6 +35,9 @@ li {margin: 10px auto;}
 
 // .input-field {display: none;}
 
+.input-field {
+  top: 40px;
+}
 
 // Overrides Materialize default placeholder style
 ::placeholder {color: lighten($accent, 45%);}
