@@ -62,23 +62,25 @@ function addTodo() {
 }
 
 function complete(e) {
-  const todoBullet = document.querySelector('i.custom-material-icons.material-icons');
-  const todoText = document.querySelector('li.align-vertical');
-  // When a todo item is clicked
-  if (e.target === todoBullet || e.target === todoText) {
-    console.log('completed', e.target);
+  if (e.target.tagName === "SPAN") {
+    console.log(e);
+    e.target.style.textDecorationLine = "line-through";
+    e.target.style.opacity = "0.4";
   }
 }
 
 
 
-// USER SHOULD BE ABLE TO MARK A TODO AS COMPLETE
-  // Need to place an event listener on "ul container" so that I can make the todo items clickable
-  // When a todo item is clicked
-    // Strike through todo item
-    // Fade out text slightly
-    // Insert a check mark inside circle bullet
 
+// USER SHOULD BE ABLE TO MARK A TODO AS COMPLETE
+
+// When a click happens on ul
+  // If event originates from an "i" or "span"
+    // Its a todo item
+    // Get specific information on todo item
+    // If specific todo info matches todo on list
+      // Strike-through specific todo
+      // Place check mark in specific todo circle icon
 
 
 

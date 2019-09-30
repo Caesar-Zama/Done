@@ -20,6 +20,9 @@
   width: 90vw;
   min-height: 52.0833333333vh; }
 
+.stirke-through {
+  text-decoration-line: line-through; }
+
 .galliano {
   background-color: #D4A40C; }
 
