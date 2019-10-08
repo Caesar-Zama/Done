@@ -13,15 +13,25 @@
   align-items: center; }
 
 .custom-material-icons {
-  color: #D4A40C;
-  padding-right: 2%; }
+  padding-right: 2%;
+  font-size: 2rem;
+  color: #D4A40C; }
 
 .card-medium {
   width: 90vw;
   min-height: 52.0833333333vh; }
 
+.show {
+  display: block !important; }
+
 .stirke-through {
+  opacity: 0.4;
   text-decoration-line: line-through; }
+
+.checkmark {
+  background-image: url("/asset/icons/checkmark-24px.svg");
+  background-repeat: no-repeat;
+  background-position: 25% 55%; }
 
 .galliano {
   background-color: #D4A40C; }
